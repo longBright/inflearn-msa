@@ -1,7 +1,6 @@
 package com.example.userservice;
 
 import com.example.userservice.dto.UserDto;
-import com.example.userservice.jpa.User;
 import com.example.userservice.service.UserService;
 import com.example.userservice.vo.Greeting;
 import com.example.userservice.vo.RequestUser;
@@ -14,8 +13,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
-import javax.ws.rs.Path;
-
 import java.util.List;
 
 import static org.modelmapper.convention.MatchingStrategies.STRICT;
